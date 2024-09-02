@@ -63,7 +63,8 @@ body {
   outline: none;
 }
 
-.our-btn:hover, .our-btn:active {
+.our-btn:hover,
+.our-btn:active {
   background-color: #2e40e2;
   border: 2px solid #2e40e2;
 }
@@ -73,7 +74,8 @@ body {
   border: 2px white solid;
 }
 
-.our-btn--outline:hover, .our-btn--outline:active {
+.our-btn--outline:hover,
+.our-btn--outline:active {
   background-color: white;
   color: #475aff;
   border: 2px solid white;
@@ -171,6 +173,18 @@ body {
   border: none;
   font-family: "Source Sans 3", sans-serif;
   font-size: 1.15rem;
+  cursor: pointer;
+}
+
+.pet-filter button:hover,
+.pet-filter button:active {
+  color: #7d7d7d;
+}
+
+.pet-filter .active,
+.pet-filter .active:hover {
+  color: #475aff;
+  text-decoration: underline;
 }
 
 .site-footer p {
