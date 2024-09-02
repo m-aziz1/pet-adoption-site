@@ -3,7 +3,6 @@ html {
   margin: 0;
   padding: 0;
   background-color: white;
-  -webkit-tap-highlight-color: transparent;
 }
 
 html {
@@ -64,8 +63,7 @@ body {
   outline: none;
 }
 
-.our-btn:hover,
-.our-btn:active {
+.our-btn:hover {
   background-color: #2e40e2;
   border: 2px solid #2e40e2;
 }
@@ -75,8 +73,7 @@ body {
   border: 2px white solid;
 }
 
-.our-btn--outline:hover,
-.our-btn--outline:active {
+.our-btn--outline:hover {
   background-color: white;
   color: #475aff;
   border: 2px solid white;
@@ -177,8 +174,7 @@ body {
   cursor: pointer;
 }
 
-.pet-filter button:hover,
-.pet-filter button:active {
+.pet-filter button:hover {
   color: #7d7d7d;
 }
 
