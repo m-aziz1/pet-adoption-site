@@ -10,9 +10,7 @@ async function updateTemp() {
 }
 
 async function petsArea() {
-  const petsPromise = await fetch(
-    "https://learnwebcode.github.io/bootcamp-pet-data/pets.json"
-  );
+  const petsPromise = await fetch("https://m-aziz1-pets.netlify.app/.netlify/functions/pets");
   const petsData = await petsPromise.json();
   petsData.forEach((pet) => {
     const clone = template.content.cloneNode(true);
